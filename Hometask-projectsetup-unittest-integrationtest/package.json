@@ -1,0 +1,15 @@
+{
+  "name": "hometask_001",
+  "packageManager": "yarn@3.2.4",
+  "version": "1.0.0",
+  "description": "This is my first project",
+  "main": "index.js",
+  "author": "atulzh07",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
