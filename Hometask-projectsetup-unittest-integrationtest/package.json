@@ -2,7 +2,7 @@
   "name": "hometask_001",
   "packageManager": "yarn@3.2.4",
   "version": "1.0.0",
-  "description": "This is my first project",
+  "description": "unit and integration testing rectangle.js using Jest",
   "main": "index.js",
   "author": "atulzh07",
   "license": "MIT",
@@ -10,6 +10,9 @@
     "test": "jest"
   },
   "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.3.1",
     "jest": "^29.3.1"
   }
 }
