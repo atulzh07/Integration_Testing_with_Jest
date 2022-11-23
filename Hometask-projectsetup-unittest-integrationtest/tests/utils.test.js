@@ -12,10 +12,8 @@ test('find the area of a rectangle', () => {
     expect(outputArea).toBe(2);
 })
 
-
 test('rectangle information', () => {
-    let outputInfo = jest.fn();
-    outputInfo = getRectangleInfo(1,2)
-    const expectedOutput = `The perimeter of a rectangle is 6 and the area is 2`;
-    expect(outputInfo).toBe(expectedOutput);
+    // let outputInfo = jest.fn();
+    let outputInfo = getRectangleInfo(1,2);
+    expect(outputInfo).toBe(console.log("The perimeter of a rectangle is 6 and the area is 2"));
 })
